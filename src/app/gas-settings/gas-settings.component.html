@@ -25,7 +25,7 @@
              placeholder="Custom gas price"
              style="width: 100px;"
              type="text">
-      <mat-error *ngIf="gasPriceInput.errors?.pattern">Not valid value!. Only numeric value is allowed!</mat-error>
+      <mat-error *ngIf="gasPriceInput.errors?.pattern">OK... Not valid value!. Only numeric value is allowed!</mat-error>
       <mat-error *ngIf="gasPriceInput.errors?.min">Gas Price can't be less than 1 GWEI</mat-error>
       <!--
       <mat-error *ngIf="gasPriceInput.errors?.fraction">Fraction shouldn't have more than 2 decimal places!</mat-error>
